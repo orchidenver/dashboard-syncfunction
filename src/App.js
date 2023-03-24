@@ -36,6 +36,7 @@ function App() {
                             <Navbar />
                         </div>
                         <>
+                            <ThemeSettings />
                             <Routes>
                                 {/* dashboard  */}
                                 <Route path="/" element={(<Ecommerce />)} />
